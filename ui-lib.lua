@@ -123,7 +123,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	if not finity.gs["RunService"]:IsStudio() and self.gs["CoreGui"]:FindFirstChild("FinityUI") then
 		warn("finity:", "instance already exists in coregui!")
 		
-		return
+		--return
 	end
 
 	local theme = finity.theme
@@ -210,7 +210,7 @@ function finity.new(isdark, gprojectName, thinProject)
 		BackgroundColor3 = theme.main_container,
 		BorderSizePixel = 0,
 		Position = UDim2.new(0.5, 0, 0.5, 0),
-		Size = UDim2.new(0, 800, 0, 500),
+		Size = UDim2.new(0, 500, 0, 500),
 		ZIndex = 2,
 		ImageTransparency = 1
     })
